@@ -11,7 +11,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- Main Interface -->
+    <main>
+        <h1>Pokemon Search</h1>
+        <p>Enter a pokemon's name below to search for information about it!</p>
+        <!-- Search Area -->
+        <input type="text" id="srchBar"> <input type="button" id="srchBtn" value="Search">
+    </main>
+    <section>
+        <h2 id="pokeName"></h2>
+        <img src="" alt="" id="pokeImg">
+        <span id="pokeType"></span>
+        <!-- Stats Table -->
+        <table>
+            <tr>
+                <th class="statName">Health</th>
+                <th class="statName">Attack</th>
+            </tr>
+            <tr>
+                <td id="statHealth"></td>
+                <td id="statAttack"></td>
+            </tr>
+            <tr>
+                <th class="statName">Defense</th>
+                <th class="statName">Sp. Attack</th>
+            </tr>
+            <tr>
+                <td id="statDefense"></td>
+                <td id="statSpAttack"></td>
+            </tr>
+            <tr>
+                <th class="statName">Sp. Defense</th>
+                <th class="statName">Speed</th>
+            </tr>
+            <tr>
+                <td id="statSpDefense"></td>
+                <td id="statSpeed"></td>
+            </tr>
+        </table>
+    </section>
     
     <!-- Linked JS Docs -->
     <script type="text/javascript" src="js/script.js"></script>
